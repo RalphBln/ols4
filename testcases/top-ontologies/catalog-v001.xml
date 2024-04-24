@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://top.smith.care/terminology/versioning" uri="versioning.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1713979568697" name="http://www.w3.org/2004/02/skos/core" uri="skos.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1713979568697" name="https://top.smith.care/ols/test/1.0" uri="test-1.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1713979568697" name="https://top.smith.care/ols/test/1.1" uri="test-1.1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1713979568697" name="https://top.smith.care/ols/test/2.0" uri="test-2.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1713979568697" name="https://top.smith.care/terminology/versioning" uri="versioning.owl"/>
+    </group>
+</catalog>

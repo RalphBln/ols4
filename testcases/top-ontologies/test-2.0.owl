@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://top.smith.care/ols/test/2.0#"
+     xml:base="https://top.smith.care/ols/test/2.0"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:versioning="https://top.smith.care/terminology/versioning#">
+    <owl:Ontology rdf:about="https://top.smith.care/ols/test/2.0"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://top.smith.care/terminology/versioning#renamed_from -->
+
+    <owl:AnnotationProperty rdf:about="https://top.smith.care/terminology/versioning#renamed_from"/>
+    
+
+
+    <!-- https://top.smith.care/terminology/versioning#split_from -->
+
+    <owl:AnnotationProperty rdf:about="https://top.smith.care/terminology/versioning#split_from"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#A -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#A">
+        <rdfs:label>A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#A1 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#A1">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#A"/>
+        <rdfs:label>Anton1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://top.smith.care/ols/test/2.0#A1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Anton1</owl:annotatedTarget>
+        <versioning:renamed_from>A1</versioning:renamed_from>
+    </owl:Axiom>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#A2 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#A2">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#A"/>
+        <rdfs:comment>Anton2</rdfs:comment>
+        <rdfs:label>A2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#A21 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#A21">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#A2"/>
+        <rdfs:label>Anton21</rdfs:label>
+        <versioning:split_from rdf:resource="https://top.smith.care/ols/test/1.1#A2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#A22 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#A22">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#A2"/>
+        <rdfs:label>Anton22</rdfs:label>
+        <versioning:split_from rdf:resource="https://top.smith.care/ols/test/1.1#A2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#B -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#B">
+        <rdfs:label>B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#B1 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#B1">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#B"/>
+        <rdfs:comment>Berta1</rdfs:comment>
+        <rdfs:label>B1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#B2 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#B2">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#B1"/>
+        <rdfs:label>B2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#C -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#C">
+        <rdfs:label>C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#C1 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#C1">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#C"/>
+        <rdfs:label>C1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#C2 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#C2">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#C"/>
+        <rdfs:label>C2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://top.smith.care/ols/test/2.0#C3 -->
+
+    <owl:Class rdf:about="https://top.smith.care/ols/test/2.0#C3">
+        <rdfs:subClassOf rdf:resource="https://top.smith.care/ols/test/2.0#C2"/>
+        <rdfs:label>Caesar3</rdfs:label>
+        <rdfs:label xml:lang="en">Cesar3</rdfs:label>
+        <rdfs:label xml:lang="de">Cäsar3</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

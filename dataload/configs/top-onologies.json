@@ -1,0 +1,48 @@
+{
+  "ontologies": [
+    {
+      "id": "versioning",
+      "preferredPrefix": "VERSIONING",
+      "title": "The TOP Versioning Ontology",
+      "uri": "https://top.smith.care/terminology/versioning",
+      "description": "The TOP Versioning Ontology.",
+      "base_uri": ["https://top.smith.care/terminology/versioning"],
+      "label_property": "http://www.w3.org/2000/01/rdf-schema#label",
+      "reasoner": "none",
+      "ontology_purl": "file:///opt/dataload/testcases/top-ontologies/versioning.owl"
+    },
+    {
+      "id": "test-1_0",
+      "preferredPrefix": "TEST",
+      "title": "Test Ontology Version 1.0",
+      "uri": "https://top.smith.care/ols/test/1.0",
+      "description": "For testing different versions of the same ontology in OLS. This is Test Ontology Version 1.0",
+      "base_uri": ["https://top.smith.care/ols/test/1.0"],
+      "label_property": "http://www.w3.org/2000/01/rdf-schema#label",
+      "reasoner": "none",
+      "ontology_purl": "file:///opt/dataload/testcases/top-ontologies/test-1.0.owl"
+    },
+    {
+      "id": "test-1_1",
+      "preferredPrefix": "TEST",
+      "title": "Test Ontology Version 1.1",
+      "uri": "https://top.smith.care/ols/test/1.1",
+      "description": "For testing different versions of the same ontology in OLS. This is Test Ontology Version 1.1",
+      "base_uri": ["https://top.smith.care/ols/test/1.1"],
+      "label_property": "http://www.w3.org/2000/01/rdf-schema#label",
+      "reasoner": "none",
+      "ontology_purl": "file:///opt/dataload/testcases/top-ontologies/test-1.1.owl"
+    },
+    {
+      "id": "test-2_0",
+      "preferredPrefix": "TEST",
+      "title": "Test Ontology Version 2.0",
+      "uri": "https://top.smith.care/ols/test/2.0",
+      "description": "For testing different versions of the same ontology in OLS. This is Test Ontology Version 2.0",
+      "base_uri": ["https://top.smith.care/ols/test/2.0"],
+      "label_property": "http://www.w3.org/2000/01/rdf-schema#label",
+      "reasoner": "none",
+      "ontology_purl": "file:///opt/dataload/testcases/top-ontologies/test-2.0.owl"
+    }
+  ]
+}
